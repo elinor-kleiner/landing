@@ -1,0 +1,105 @@
+
+body {
+	background-color: #FBE1E1;
+	margin: none;
+}
+
+h1 {
+	font-family: 'Aperçu Regular', sans-serif;
+	font-size: 60px;
+	font-weight: bolder;
+	color: #aa1e36;
+	text-align: center;
+}
+h2 {
+	color: #aa1e36;
+	font-family: 'Aperçu Bold', sans-serif;
+}
+about
+
+
+p {
+	font-family: 'Aperçu Regular', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+@media (max-width: 760px) {
+	.container {
+		width:600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+#logo {
+	width: 200px;
+	border-radius: 50%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#posters {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}	
+
+}
+
+
+#form p {
+	margin-bottom: 30px;
+}
+
+#introduction {
+	padding: 20px 25px;
+}
+
+#link-club {
+	text-decoration: underline;
+	color: #000000;
+	font-family: Aperçu Regular, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+#avatar {
+	width: 200px;
+	border-radius: 50%;
+}
+
+#list-inline {
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.card-white {
+	background-color: #FFF5FC;
+	padding: 60px;
+	margin-top: 30px;
+	margin-right: 70px;
+	margin-left: 70px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 15%);
+	border-radius: 3px;
+	text-align: center;
+}
